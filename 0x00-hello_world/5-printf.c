@@ -4,8 +4,9 @@
  *
  * Return:Always 0(Success)
  */
-int main(void;/*Program with print text with warning*/
-{	/*display text*/
-	printf("with proper grammar,but the outcome is a piece of art,\n");
-	return (0);
+int main(void)
 {
+    /* Display text */
+    printf("With proper grammar, but the outcome is a piece of art,\n");
+    return 0;
+}
