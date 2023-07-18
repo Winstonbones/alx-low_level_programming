@@ -1,8 +1,9 @@
 #include “main.h”
 /**
- *main-a program that prints _putchar,
+ *main-prints _putchar,
  *
  *Return:Always 0
+*/
 
 int main(void)
 {
@@ -17,4 +18,5 @@ _pucthar(‘ r ‘);
 _putchar( ‘\n’ );
 Return (0);
 {
+
 
