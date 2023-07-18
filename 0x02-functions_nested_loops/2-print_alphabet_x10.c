@@ -13,8 +13,8 @@ void print_alphabet_x10(void)
 
 	while (i <10)
 	{
-		char =‘ a ’
-		while (ch <= ‘ z ’)
+		char = ‘a’
+		while (ch <= ‘z’)
 		{
 			_pucthar(ch);
 			ch++;
