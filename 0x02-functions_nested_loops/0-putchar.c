@@ -16,6 +16,6 @@ _pucthar(‘h‘);
 _putchar(‘a‘);
 _pucthar(‘r‘);
 _putchar(‘\n’);
-Return(0);
-{
+return(0);
+}
 
