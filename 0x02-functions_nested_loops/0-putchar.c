@@ -1,9 +1,8 @@
-
-#include “ main.h ”
+#include "main.h"
 /**
  *main-prints _putchar
  *
- *Return: 0
+ *Return:0
 */
 
 int main(void)
@@ -17,6 +16,6 @@ _pucthar(‘h‘);
 _putchar(‘a‘);
 _pucthar(‘r‘);
 _putchar(‘\n’);
-Return (0);
+Return(0);
 {
 
