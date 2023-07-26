@@ -1,4 +1,4 @@
-#include "stdio.h>"
+#include "stdio.h"
 /**
  * _array -  a function that reverses the content of an array of integers
  * @a: string value
@@ -7,19 +7,15 @@
  * Return: void
  */
 void reverse_array(int *a, int n)
-
 {
-	
+	int i;
 	int p;
 
-	int p = 0
-
-	for ( p < n , p++)
+	for (i = 0; i < n--; i++)
 	{
-
-		int a[p] = int n[p]
-		int a[p] = i
-		int n[p] = i
+		p = a[i];
+		a[i] = a[n];
+		a[n] = p;
 	}
 }
 
