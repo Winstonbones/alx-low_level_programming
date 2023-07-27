@@ -1,0 +1,3 @@
+tring.c:7: warning: Excess function parameter 'char' description in 'cap_string'
+6-cap_string.c:6: warning: No description found for return value of 'cap_string'
+cap_string
