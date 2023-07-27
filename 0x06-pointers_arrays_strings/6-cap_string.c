@@ -1,7 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 /**
 *cap_string - a function that capitalizes all words of a string
-*@char: input string to be capitalized
+*@p: input string to be capitalized
 *
 *Return: pointer to the switched string
 */
