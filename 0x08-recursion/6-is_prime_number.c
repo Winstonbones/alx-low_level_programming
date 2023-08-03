@@ -1,14 +1,30 @@
 #include <stdio.h>
+
 /**
- * is_prime_number -  function that returns 1 if the input integer is a prime number
- * @n: input value
- *
- * Return: 1 if n is a prime number, 0 if not
+ * check - checks to see if number is prime
+ * @p:input value
+ * @i:input value
+ * Return:1 if prime number otherwise 0
+ */
+int check(int p, int i)
+{
+	if (i < 2 || i % p == 0)
+		return (0);
+	else if (p > i / 2)
+		return (1);
+	else
+		return (check(p + 1, i));
+}
+
+/**
+ * is_prime_number - Entry point
+ * @n:input value
+ * Return: result
  */
 int is_prime_number(int n)
 {
-	if (n <= 1)
-		return (0);
-	return (is_prime_number(n, n - 1));
+	if (n == 2)
+		return (1);
+	return (check(2, n));
 }
 
