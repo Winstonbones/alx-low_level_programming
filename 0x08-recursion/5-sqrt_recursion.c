@@ -1,14 +1,30 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _sqrt_recursion - returns the natural square root of a number.
  * @n: input value
  *
- * Return: the result
+ * Return: sqaure root or -1
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
+	if (n == 0)
+		return (0);
+	return (1, n);
+}
+
+/**
+ * check - checks for the square root
+ * @p:int
+ * @i:int
+ *
+ * Return: int
+ */
+int check(int p, int i)
+{
+	if (p * p == i)
+		return (p);
+	if (p * p > i)
 		return (-1);
-	return (_sqrt_recursion(n, 0));
+	return (check(p + 1, i));
 }
 
