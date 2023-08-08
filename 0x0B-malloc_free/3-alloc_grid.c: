@@ -1,0 +1,3 @@
+lloc_grid.c:16:6: error: ‘withd’ undeclared (first use in this function)
+   16 |  if (withd <= || height <= 0)
+      |      ^~~~~
