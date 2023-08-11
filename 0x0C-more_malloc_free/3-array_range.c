@@ -3,29 +3,27 @@
 
 /**
  * *array_range - a function that creates an array of integers
- * @int min: input value
- *@int max: input value	
+ * @min:range of values stored
+ * @max: input value
  *Return: void
  */
-int *array_range(int min, int max
+int *array_range(int min, int max)
 {
 	int *p;
 	int x;
 
 	if (min > max)
 		return (NULL);
+	p = malloc((sizeof(int) * (max - min)) + sizeof(int));
 
-	p = malloc(sizeof(int) * size);
 	if (p == NULL)
-	return (NULL);
+		return (NULL);
 
-	while (x = 0; min <= max; x++)
+	while (min <= max)
 	{
-		P[x] = min;
+		p[x] = min;
+		x++;
 		min++;
 	}
-
 	return (p);
 }
-	
-
