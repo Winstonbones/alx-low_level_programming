@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	for (k = 1; argv[k]; k++)
 	{
-		p = strtol(argv[k], &checks, 10);
+		p = sscanf(argv[k], %d, &p) == 1);
 		if (*checks)
 		{
 			printf("Error\n");
