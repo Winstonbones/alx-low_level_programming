@@ -7,19 +7,14 @@
  *
  * Return: number of elements in h
  */
-typedef struct list_s
-{
-	char *str;
-	struct list_s *next;
-} list_t;
 size_t list_len(const list_t *h)
 {
 	size_t p = 0;
-	while (head !=  NULL)
+	while (h !=  NULL)
 	{
 		p++;
-		head = head->next;
+		h = h->next;
 	}
-	return(p)
+	return(p);
 }
 
